@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Cooper-Hewitt-Medium";
+    src: url("/public/fonts/CooperHewitt-Medium.otf");
+}
+
+@font-face {
+    font-family: "Cooper-Hewitt-Light";
+    src: url("/public/fonts/CooperHewitt-Light.otf");
+}
+
+@font-face {
+    font-family: "Cooper-Hewitt-Bold";
+    src: url("/public/fonts/CooperHewitt-Bold.otf");
+}
+
+@font-face {
+    font-family: "Azonix";
+    src: url("/public/fonts/Azonix.otf");
+}
+
+@layer base {
+    html {
+        @apply font-cooper-hewitt-light
+    }
+
+    h1 {
+        @apply font-azonix
+    }
+
+    h2 {
+        @apply font-cooper-hewitt-bold
+    }
+}
