@@ -55,7 +55,9 @@ export default function Navbar() {
           <FaBars size={32} className="text-white" ></FaBars>
         </button>
 
-        <img src="/logos/logoV3.svg" className="w-56" alt="logo"/>
+        <Link to="/">
+          <img src="/logos/logoV3.svg" className="w-56" alt="logo"/>
+        </Link>
 
         <div></div>
       </header>
