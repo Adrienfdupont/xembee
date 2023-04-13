@@ -23,7 +23,7 @@ export default function Navbar() {
     <>
       <div
         ref={menu}
-        className={`bg-white shadow-2xl fixed left-0 h-screen items-start py-4 w-96 ${
+        className={`bg-white shadow-2xl fixed left-0 h-screen items-start py-4 w-80 ${
           isOpen ? "-translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -50,10 +50,14 @@ export default function Navbar() {
         </nav>
       </div>
 
-      <header className="p-4 fixed">
+      <header className="p-4 flex justify-between sm:justify-start sm:gap-8">
         <button onClick={() => setIsOpen(true)}>
           <FaBars size={32} className="text-white" ></FaBars>
         </button>
+
+        <img src="/logos/logoV3.svg" className="w-56" alt="logo"/>
+
+        <div></div>
       </header>
     </>
   );
