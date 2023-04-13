@@ -10,7 +10,22 @@ module.exports = {
       "cooper-hewitt-bold": ["Cooper-Hewitt-Bold", "sans-serif"],
       azonix: ["Azonix", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        "menu-open": {
+          "0%": {transform: "translateX(-100%)"},
+          "100%": {transform: "translateX(0%)"},
+        },
+        "menu-closed": {
+          "0%": {transform: "translateX(0%)"},
+          "100%": {transform: "translateX(-100%)"},
+        },
+      },
+      animation: {
+        "menu-open": "filter-slide-down 0.3s ease-in-out forwards",
+        "menu-closed": "filter-slide-up 0.3s ease-in-out forwards",
+      },
+    },
   },
   plugins: [],
 }
