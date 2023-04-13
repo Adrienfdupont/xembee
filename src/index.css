@@ -3,11 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Cooper-Hewitt-Medium";
-    src: url("/public/fonts/CooperHewitt-Medium.otf");
-}
-
-@font-face {
     font-family: "Cooper-Hewitt-Light";
     src: url("/public/fonts/CooperHewitt-Light.otf");
 }
