@@ -6,8 +6,9 @@ import Concept from './pages/Concept';
 
 export default function App() {
   return (
-    <div className="lg:px-96">
+    <div>
       <Navbar></Navbar>
+
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/our-project" element={<Project/>} />

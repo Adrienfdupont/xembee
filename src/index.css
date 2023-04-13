@@ -19,14 +19,15 @@
 
 @layer base {
     html {
-        @apply font-cooper-hewitt-light
+        @apply font-cooper-hewitt-light;
     }
 
     h1 {
-        @apply font-azonix
+        @apply font-azonix;
     }
 
     h2 {
-        @apply font-cooper-hewitt-bold
+        @apply font-cooper-hewitt-bold;
+        @apply text-4xl;
     }
 }

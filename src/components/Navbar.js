@@ -23,11 +23,11 @@ export default function Navbar() {
     <>
       <div
         ref={menu}
-        className={`bg-white fixed left-0 h-screen items-start py-4 w-60 ${
+        className={`bg-white shadow-2xl fixed left-0 h-screen items-start py-4 w-96 ${
           isOpen ? "-translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex justify-end">
+        <div className="flex justify-end p-1">
           <button>
             <MdClose onClick={() => setIsOpen(false)} ref={menu} size={32}/>
           </button>
@@ -50,9 +50,9 @@ export default function Navbar() {
         </nav>
       </div>
 
-      <header className="p-4">
+      <header className="p-4 fixed">
         <button onClick={() => setIsOpen(true)}>
-          <FaBars size={32}></FaBars>
+          <FaBars size={32} className="text-white" ></FaBars>
         </button>
       </header>
     </>
