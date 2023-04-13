@@ -3,5 +3,6 @@ export default function Home() {
         <div>
             Page d'accueil
         </div>
+
     )
 }
