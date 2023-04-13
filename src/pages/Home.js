@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 import { BsChevronRight} from "react-icons/bs";
 
 export default function Home() {
@@ -13,9 +14,11 @@ export default function Home() {
               Le projet XEMBEE est entré dans une nouvelle phase en rejoignant le plus grand incubateur Européen Euratechnologies et plus particulièrement dans le cadre de l’énergie renouvelable avec la filière Prop Tech.
               Le projet est ainsi depuis le 3 octobre 2022 basée à Roubaix au sein de Blanchemaille.
             </p>
-            <button className="bg-gray-300 px-4 py-6 font-cooper-hewitt-bold hover:bg-gray-200">
-              DÉCOUVRIR LE PROJET
-            </button>
+            <Link to="/our-project">
+              <button className="bg-gray-300 px-4 py-6 font-cooper-hewitt-bold hover:bg-gray-200">
+                DÉCOUVRIR LE PROJET
+              </button>
+            </Link>
           </section>
 
           <section className="flex flex-col items-center py-14 gap-8">
