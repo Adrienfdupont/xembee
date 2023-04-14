@@ -16,7 +16,7 @@ export default function Home() {
                 Le projet est ainsi depuis le 3 octobre 2022 basée à Roubaix au sein de Blanchemaille.
               </p>
               <Link to="/our-project">
-                <button className="bg-gray-300 px-4 py-6 font-cooper-hewitt-bold hover:bg-gray-200">
+                <button className="bg-gray-300 px-12 py-6 font-cooper-hewitt-bold hover:bg-gray-200">
                   DÉCOUVRIR LE PROJET
                 </button>
               </Link>
@@ -40,7 +40,7 @@ export default function Home() {
                 Entrez votre adresse email pour accéder à notre newsletter
               </p>
               <div>
-                <input className="rounded-xl border-2 p-4" type="text" placeholder="ADRESSE MAIL" />
+                <input className="rounded-xl border-2 w-72 sm:w-96 p-4" type="text" placeholder="ADRESSE MAIL" />
                 <button className="-translate-x-full translate-y-1/4">
                   <BsChevronRight size={24} className="text-gray-300 hover:text-gray-500"/>
                 </button>
