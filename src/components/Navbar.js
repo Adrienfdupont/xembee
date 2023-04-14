@@ -36,9 +36,19 @@ export default function Navbar() {
 
   return (
     <>
+      <header className="sticky left-0 top-0 p-4 flex justify-between sm:justify-start sm:gap-8">
+        <button onClick={handleClick}>
+          <FaBars size={32} ></FaBars>
+        </button>
+        <Link to="/">
+          <img src="/logos/logoV3.svg" className="w-56" alt="logo"/>
+        </Link>
+        <div></div>
+      </header>
+
       <div
         ref={menu}
-        className={`bg-white shadow-2xl fixed left-0 h-screen items-start py-4 w-80 transform transition-all duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+        className={`bg-white shadow-2xl fixed left-0 top-0 bottom-0 items-start py-4 w-80 transform transition-all duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="flex justify-end p-1">
           <button onClick={handleClick}>
             <MdClose size={32}/>
@@ -58,15 +68,6 @@ export default function Navbar() {
           </ul>
         </nav>
       </div>
-      <header className="p-4 flex justify-between sm:justify-start sm:gap-8">
-        <button onClick={handleClick}>
-          <FaBars size={32} ></FaBars>
-        </button>
-        <Link to="/">
-          <img src="/logos/logoV3.svg" className="w-56" alt="logo"/>
-        </Link>
-        <div></div>
-      </header>
     </>
   );
 };
