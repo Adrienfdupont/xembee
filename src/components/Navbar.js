@@ -52,7 +52,7 @@ export default function Navbar() {
 
       <header className="p-4 flex justify-between sm:justify-start sm:gap-8">
         <button onClick={() => setIsOpen(true)}>
-          <FaBars size={32} className="text-white" ></FaBars>
+          <FaBars size={32} ></FaBars>
         </button>
 
         <Link to="/">
