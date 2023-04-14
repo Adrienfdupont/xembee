@@ -3,7 +3,7 @@ import { BsChevronRight} from "react-icons/bs";
 
 export default function Home() {
     return(
-        <main className="absolute inset-0 -z-10">
+        <main>
           <div className="w-full h-96 bg-no-repeat bg-cover bg-center bg-[url('https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&w=1600')]"></div>
 
           <section className="flex flex-col items-center py-14 px-2 gap-8">
