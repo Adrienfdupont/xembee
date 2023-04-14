@@ -16,9 +16,6 @@ export default function Navbar() {
       menu.current.classList.replace("-translate-x-full", "animate-menu-open");
     } else {
       menu.current.classList.replace("animate-menu-open", "animate-menu-close");
-      setTimeout(() => {
-        menu.current.classList.replace("animate-menu-close", "-translate-x-full");
-      }, 300);
     }
   }, [isOpen]);
 
@@ -36,7 +33,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="sticky left-0 top-0 p-4 flex justify-between sm:justify-start sm:gap-8">
+      <header className="bg-white sticky left-0 top-0 p-4 flex justify-between sm:justify-start sm:gap-8">
         <button onClick={handleClick}>
           <FaBars size={32} ></FaBars>
         </button>
