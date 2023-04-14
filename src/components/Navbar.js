@@ -1,4 +1,4 @@
-import {Link, NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {useEffect, useRef, useState} from "react";
 import {FaBars} from "react-icons/fa";
 import {MdClose} from "react-icons/md";
@@ -10,7 +10,8 @@ export default function Navbar() {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menu.current && !menu.current.contains(event.target)) {
-        setIsOpen(false);
+        menu.current.classList.replace("animate-menu-open", "animate-menu-close");
+        alert('close');
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
@@ -19,17 +20,22 @@ export default function Navbar() {
     };
   }, [menu]);
 
+  const handleClick = ()=> {
+    if (menu.current.classList.contains("-translate-x-full")) {
+      menu.current.classList.replace("-translate-x-full", "animate-menu-open");
+    } else {
+      menu.current.classList.toggle("animate-menu-open");
+      menu.current.classList.toggle("animate-menu-closed")
+    }
+  }
+
   return (
     <>
       <div
-        ref={menu}
-        className={`bg-white shadow-2xl fixed left-0 h-screen items-start py-4 w-80 ${
-          isOpen ? "-translate-x-0" : "-translate-x-full"
-        }`}
-      >
+        ref={menu} className="bg-white shadow-2xl fixed left-0 h-screen items-start py-4 w-80 -translate-x-full">
         <div className="flex justify-end p-1">
           <button>
-            <MdClose onClick={() => setIsOpen(false)} ref={menu} size={32}/>
+            <MdClose onClick={() => handleClick()} ref={menu} size={32}/>
           </button>
         </div>
 
@@ -51,7 +57,7 @@ export default function Navbar() {
       </div>
 
       <header className="p-4 flex justify-between sm:justify-start sm:gap-8">
-        <button onClick={() => setIsOpen(true)}>
+        <button onClick={() => handleClick()}>
           <FaBars size={32} ></FaBars>
         </button>
 
