@@ -1,7 +1,10 @@
 export default function Project() {
     return(
         <main>
+
           <div className="container mx-auto">
+
+            {/*image et présentation*/}
             <section className="flex flex-col items-center pb-8 gap-4">
               <img src="/images/Group31.svg" alt="product" className="w-full sm:max-w-2xl" />
               <p className="text-center px-2">
@@ -54,7 +57,7 @@ export default function Project() {
               </div>
             </section>
 
-            {/*spécificité*/}
+            {/*spécificités*/}
             <section className="flex flex-col items-center py-8 gap-4">
               <h2 className="text-center">
                 DÉTAILS TECHNIQUES

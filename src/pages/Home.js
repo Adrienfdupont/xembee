@@ -4,6 +4,7 @@ import { BsChevronRight} from "react-icons/bs";
 export default function Home() {
     return(
         <main>
+
           <div className="w-full h-96 bg-no-repeat bg-cover bg-center bg-[url('https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&w=1600')]"></div>
 
           <div className="container mx-auto">
@@ -39,7 +40,7 @@ export default function Home() {
               <p className="max-w-4xl text-center">
                 Entrez votre adresse email pour accéder à notre newsletter
               </p>
-              <div>
+              <div className="pl-4">
                 <input className="rounded-xl border-2 w-72 sm:w-96 p-4" type="text" placeholder="ADRESSE MAIL" />
                 <button className="-translate-x-full translate-y-1/4">
                   <BsChevronRight size={24} className="text-gray-300 hover:text-gray-500"/>

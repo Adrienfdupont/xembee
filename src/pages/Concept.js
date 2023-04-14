@@ -2,6 +2,7 @@ export default function Concept() {
     return(
       <main>
         <div className="container mx-auto">
+
           {/*le projet*/}
           <section className="flex flex-col items-center lg:items-start lg:flex-row pb-8 gap-4">
             <img src="/images/image11.png" alt="product" className="w-full sm:w-96" />
@@ -25,7 +26,7 @@ export default function Concept() {
             </div>
           </section>
 
-          {/*partnaires*/}
+          {/*partenaires*/}
           <section className="py-8">
             <h2 className="text-center lg:text-left">NOS PARTENAIRES</h2>
 
