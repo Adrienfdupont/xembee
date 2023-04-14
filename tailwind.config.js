@@ -22,8 +22,8 @@ module.exports = {
         },
       },
       animation: {
-        "menu-open": "filter-slide-down 0.3s ease-in-out forwards",
-        "menu-closed": "filter-slide-up 0.3s ease-in-out forwards",
+        "menu-open": "menu-open 0.3s ease-in-out forwards",
+        "menu-closed": "menu-closed 0.3s ease-in-out forwards",
       },
     },
   },
