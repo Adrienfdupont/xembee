@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Cooper-Hewitt-Light";
+    src: url("/public/fonts/CooperHewitt-Light.otf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: "Cooper-Hewitt-Bold";
+    src: url("/public/fonts/CooperHewitt-Bold.otf");
+}
+
+@font-face {
+    font-family: "Azonix";
+    src: url("/public/fonts/Azonix.otf");
+}
+
+@layer base {
+    html {
+        @apply font-cooper-hewitt-light;
+    }
+
+    h1 {
+        @apply font-azonix;
+    }
+
+    h2 {
+        @apply font-cooper-hewitt-bold;
+        @apply text-4xl;
+    }
 }
