@@ -2,7 +2,7 @@ export default function Project() {
     return(
         <main>
           <section className="flex flex-col items-center py-14 gap-8">
-            <img src="/images/image11.png" alt="product" className="w-full sm:max-w-2xl" />
+            <img src="/images/Group31.svg" alt="product" className="w-full sm:max-w-2xl" />
             <p className="max-w-4xl text-center px-2">
               Le projet Xembee s’inscrit dans une perspective du long terme et intègre les contraintes liées à l'environnement et au fonctionnement de la société aussi bien sur le plan social que économique. L’énergie la moins chère est bien-sûr celle qui n'est pas consommée mais la transition énergétique et la lutte contre le réchauffement climatique requièrent encore plus d'énergies d'origine renouvelable.
               <br />

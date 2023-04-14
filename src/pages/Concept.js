@@ -2,10 +2,10 @@ export default function Concept() {
     return(
       <main>
         {/*le projet*/}
-        <section className="flex flex-col items-center lg:flex-row lg:mx-96 gap-8">
-          <div className="bg-gray-300 w-full aspect-[1/1] sm:w-96"></div>
+        <section className="flex flex-col items-center lg:items-start lg:flex-row lg:mx-96 gap-8">
+          <img src="/images/image11.png" alt="product" className="w-full sm:w-96" />
 
-          <div>
+          <div className="px-2">
             <h2 className="mb-2">PROJET XEMBEE</h2>
 
             <p>
@@ -25,10 +25,10 @@ export default function Concept() {
         </section>
 
         {/*partnaires*/}
-        <section className="py-10 flex flex-col items-center gap-4">
+        <section className="lg:mx-96 py-14 px-2">
           <h2>NOS PARTENAIRES</h2>
 
-          <div className="w-full lg:flex lg:justify-around lg:mx-96">
+          <div className="flex flex-col items-center gap-4 lg:flex-row lg:justify-around">
             <img src="/images/image1.png" alt="Euratechnologies"/>
 
             <img src="/images/image2.png" alt="Blanchemaile" />
