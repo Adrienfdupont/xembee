@@ -7,7 +7,7 @@ Concernant le style, nous avons voulu partir sur des classes utilitaires afin d�
 Installation :
 
 Le projet a été créé avec l’une des dernières versions LTS de Node.js : 18.15.0 et npm 9.5.0.
-Pour installer le projet il suffit d’avoir Node.js et un gestionnaire de paquets comme npm ou Yarn. et d’exécuter la commande « npm install » ou « yarn ». Le gestionnaire va alors installer toutes les dépendances mentionnées dans le fichier package.json.
+Pour installer le projet il suffit d’avoir Node.js et un gestionnaire de paquets comme npm ou Yarn, et d’exécuter la commande « npm install » ou « yarn ». Le gestionnaire va alors installer toutes les dépendances mentionnées dans le fichier package.json.
 
 Utilisation :
 
@@ -17,8 +17,11 @@ La page d’accueil est également accessible depuis le logo du header pour plus
 Références :
 
 Runtime Node.js : https://nodejs.org/fr
+
 Bibliothèque React : https://fr.reactjs.org/
+
 React icons : https://react-icons.github.io/react-icons/
+
 Framework Tailwind : https://tailwindcss.com/
 
 Site Xembee : https://xembee-iota.vercel.app/
