@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Project from './pages/Project';
 import Concept from './pages/Concept';
 import Footer from "./components/Footer";
+import LegalNotices from "./pages/LegalNotices";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/our-project" element={<Project/>} />
           <Route path="/the-concept" element={<Concept/>} />
+          <Route path="/legal-notices" element={<LegalNotices/>} />
         </Routes>
       </div>
 
