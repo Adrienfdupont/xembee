@@ -1,4 +1,5 @@
 import {BsFacebook, BsInstagram, BsLinkedin} from "react-icons/bs";
+import {Link} from "react-router-dom";
 
 export default function Footer() {
   return(
@@ -18,7 +19,7 @@ export default function Footer() {
         <div className="underline cursor-pointer">
           CONTACT@XEMBEE.COM
           <br/>
-          MENTIONS LÉGALES
+          <Link to="/legal-notices">MENTIONS LÉGALES</Link>
         </div>
 
         <div>
