@@ -13,7 +13,7 @@ Pour installer le projet il suffit d’avoir Node.js et un gestionnaire de paque
 
 <h2>Utilisation :</h2>
 
-<p>Le site est composé de 3 pages accessibles depuis le menu déroulant sur le côté gauche et de la page des mentions légales accessible depuis le footer.
+<p>Le site est hébergé sur Vercel : https://xembee-iota.vercel.app/. Il est composé de 3 pages accessibles depuis le menu déroulant sur le côté gauche et de la page des mentions légales accessible depuis le footer.
 La page d’accueil est également accessible depuis le logo du header pour plus de simplicité.</p>
 
 <h2>Références :</h2>
