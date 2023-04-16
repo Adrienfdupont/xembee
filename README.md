@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+<h1>Projet Xembee</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Introduction :</h2>
 
-## Available Scripts
+<p>Le but de notre site étant simplement de promouvoir le projet Xembee, il s’agit ni plus ni moins d’un site vitrine. Nous avons jugé inutile et trop lourde l’utilisation d’un CMS.
+Pour une navigation fluide, une single page application s’imposait comme une évidence. Nous avons opté pour le framework React car il est le plus populaire et sa courbe d’apprentissage est assez facile.
+Concernant le style, nous avons voulu partir sur des classes utilitaires afin d’éviter de "nager" dans les feuilles de styles et afin d’avoir un aperçu direct sur le style de chaque élément. C’est le framework Tailwind qui a été retenu étant donné qu’il offre plus de possibilités en terme personnalisation, que le responsive est un jeu d’enfant et que sa documentation nous semblait mieux faite que celle de Bootstrap.</p>
 
-In the project directory, you can run:
+<h2>Installation :</h2>
 
-### `npm start`
+<p>Le projet a été créé avec l’une des dernières versions LTS de Node.js : 18.15.0 et npm 9.5.0.
+Pour installer le projet il suffit d’avoir Node.js et un gestionnaire de paquets comme npm ou Yarn, et d’exécuter la commande <strong>npm install</strong> ou <strong>yarn</strong>. Le gestionnaire va alors installer toutes les dépendances mentionnées dans le fichier <em>package.json</em></p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Utilisation :</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p>Le site est composé de 3 pages accessibles depuis le menu déroulant sur le côté gauche et de la page des mentions légales accessible depuis le footer.
+La page d’accueil est également accessible depuis le logo du header pour plus de simplicité.</p>
 
-### `npm test`
+<h2>Références :</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<ul>
+    <li>Runtime Node.js : https://nodejs.org/fr</li>
+    <li>Bibliothèque React : https://fr.reactjs.org/</li>
+    <li>React icons : https://react-icons.github.io/react-icons/</li>
+    <li>Framwework Tailwind : https://tailwindcss.com/</li>
+</ul>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
