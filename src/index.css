@@ -29,5 +29,6 @@
     h2 {
         @apply font-cooper-hewitt-bold;
         @apply text-4xl;
+        @apply text-title-blue;
     }
 }

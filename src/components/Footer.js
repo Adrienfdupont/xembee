@@ -3,10 +3,10 @@ import {Link} from "react-router-dom";
 
 export default function Footer() {
   return(
-    <footer className="bg-black text-white flex flex-col sm:flex-row sm:justify-between gap-4 py-4 px-6">
+    <footer className="bg-footer-blue flex flex-col sm:flex-row sm:justify-between gap-4 py-4 px-6">
 
       <div className="flex flex-col items-start gap-2">
-        <img src="/logos/logo.png" className="h-10" />
+        <img src="/logos/logo_noir.png" alt="logo" className="h-10" />
 
         <div className="flex gap-6">
           <BsFacebook size="32" className="cursor-pointer"/>

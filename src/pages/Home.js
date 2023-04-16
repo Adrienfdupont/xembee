@@ -41,9 +41,9 @@ export default function Home() {
                 Entrez votre adresse email pour accéder à notre newsletter
               </p>
               <div className="pl-4">
-                <input className="rounded-xl border-2 w-72 sm:w-96 p-4" type="text" placeholder="ADRESSE MAIL" />
+                <input className="rounded-xl border-2 w-72 sm:w-96 p-4 outline-sky-blue" type="text" placeholder="ADRESSE MAIL" />
                 <button className="-translate-x-full translate-y-1/4">
-                  <BsChevronRight size={24} className="text-gray-300 hover:text-gray-500"/>
+                  <BsChevronRight size={24} className="text-gray-300 hover:text-sky-blue"/>
                 </button>
               </div>
             </section>

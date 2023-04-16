@@ -35,7 +35,7 @@ export default function Navbar() {
     <>
       <header className="bg-white sticky left-0 top-0 p-4 flex justify-between sm:justify-start sm:gap-8">
         <button onClick={handleClick}>
-          <FaBars size={32} ></FaBars>
+          <FaBars size={32} className="text-menu-blue"></FaBars>
         </button>
         <Link to="/">
           <img src="/logos/logo.png" className="w-56" alt="logo"/>

@@ -33,7 +33,7 @@ export default function Project() {
               </div>
 
               <div className="flex flex-col items-center">
-                <img src="/logos/nature_people.svg" alt="nature" />
+                <img src="/logos/nature_people.svg" alt="nature" className="text-sky-blue" />
 
                 <span className="text-center font-cooper-hewitt-bold">
                 ÉVOLUTIF ET ÉCORESPONSABLE
@@ -65,22 +65,22 @@ export default function Project() {
 
               <table className="border-separate border-spacing-y-2 w-full">
                 <tr>
-                  <th className="h-16 p-2 bg-gray-300 font-cooper-hewitt-bold">POIDS</th>
+                  <th className="h-16 p-2 bg-sky-blue font-cooper-hewitt-bold">POIDS</th>
                   <td className="h-16 p-2 bg-gray-100">Environ 25 Kg selon les matériaux utilisés</td>
                 </tr>
 
                 <tr>
-                  <th className="h-16 p-2 bg-gray-300 font-cooper-hewitt-bold">MATÉRIAUX</th>
+                  <th className="h-16 p-2 bg-sky-blue font-cooper-hewitt-bold">MATÉRIAUX</th>
                   <td className="h-16 p-2 bg-gray-100">Inox Aluminium |  Lin Fibres végétales  |  Déchets éoliennes</td>
                 </tr>
 
                 <tr>
-                  <th className="h-16 p-2 bg-gray-300 font-cooper-hewitt-bold">ESTIMATION W/H</th>
+                  <th className="h-16 p-2 bg-sky-blue font-cooper-hewitt-bold">ESTIMATION W/H</th>
                   <td className="h-16 p-2 bg-gray-100">300 WH (base vent 10 m/s)</td>
                 </tr>
 
                 <tr>
-                  <th className="h-16 p-2 bg-gray-300 font-cooper-hewitt-bold">MODULARITÉ</th>
+                  <th className="h-16 p-2 bg-sky-blue font-cooper-hewitt-bold">MODULARITÉ</th>
                   <td className="h-16 p-2 bg-gray-100">Montage sur toits ou murs</td>
                 </tr>
               </table>
