@@ -24,5 +24,3 @@ La page d’accueil est également accessible depuis le logo du header pour plus
     <li>React icons : https://react-icons.github.io/react-icons/</li>
     <li>Framwework Tailwind : https://tailwindcss.com/</li>
 </ul>
-
-
