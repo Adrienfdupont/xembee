@@ -19,9 +19,10 @@ export default function Footer() {
       </div>
 
       <div>
-        <div className="underline cursor-pointer">
-          CONTACT@XEMBEE.COM
-          <br/>
+        <div className="underline">
+          <div>
+            CONTACT@XEMBEE.COM
+          </div>
           <Link to="/legal-notices">MENTIONS LÉGALES</Link>
         </div>
 
