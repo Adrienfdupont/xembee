@@ -19,10 +19,10 @@ La page d’accueil est également accessible depuis le logo du header pour plus
 <h2>Références :</h2>
 
 <ul>
-    <li>Runtime Node.js : https://nodejs.org/fr</li>
-    <li>Bibliothèque React : https://fr.reactjs.org/</li>
-    <li>React icons : https://react-icons.github.io/react-icons/</li>
-    <li>Framwework Tailwind : https://tailwindcss.com/</li>
+    <li>Runtime Node.js : <a>https://nodejs.org/fr</a></li>
+    <li>Bibliothèque React : <a>https://fr.reactjs.org</a>/</li>
+    <li>React icons : <a>https://react-icons.github.io/react-icons/</a></li>
+    <li>Framwework Tailwind : <a>https://tailwindcss.com</a>/</li>
 </ul>
 
 
