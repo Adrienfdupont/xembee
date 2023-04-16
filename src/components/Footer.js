@@ -1,4 +1,4 @@
-import {BsFacebook, BsInstagram, BsLinkedin} from "react-icons/bs";
+import {BsFacebook, BsLinkedin} from "react-icons/bs";
 import {Link} from "react-router-dom";
 
 export default function Footer() {
@@ -9,9 +9,12 @@ export default function Footer() {
         <img src="/logos/logo_noir.png" alt="logo" className="h-10" />
 
         <div className="flex gap-6">
-          <BsFacebook size="32" className="cursor-pointer"/>
-          <BsLinkedin size="32" className="cursor-pointer"/>
-          <BsInstagram size="32" className="cursor-pointer" />
+          <a href="https://www.facebook.com/profile.php?id=100064667964190" target="_blank">
+            <BsFacebook size="32" />
+          </a>
+          <a href="https://www.linkedin.com/company/xembee/" target="_blank">
+            <BsLinkedin size="32"  />
+          </a>
         </div>
       </div>
 
