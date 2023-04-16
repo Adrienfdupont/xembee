@@ -10,6 +10,12 @@ module.exports = {
       azonix: ["Azonix", "sans-serif"],
     },
     extend: {
+      colors: {
+        "menu-blue": "#1e3e87",
+        "footer-blue": "#d6ebe2",
+        "title-blue": "#72a5a7",
+        "sky-blue": "#a8d2f2",
+      },
       keyframes: {
         "menu-open": {
           "0%": {transform: "translateX(-100%)"},
