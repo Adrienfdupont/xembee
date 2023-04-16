@@ -5,7 +5,7 @@ export default function Home() {
     return(
         <main>
 
-          <div className="w-full h-96 bg-no-repeat bg-cover bg-center bg-[url('https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&w=1600')]"></div>
+          <img src="/images/photo_homepage.jpg" alt="" className="w-full"/>
 
           <div className="container mx-auto">
             <section className="flex flex-col items-center py-8 gap-4 px-2">
